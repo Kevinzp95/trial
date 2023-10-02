@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+$base-color: #c6538c;
+
+.header {
+	height: 20px;
+	background: black;
+	&__logo {
+		color: white;
+	}
+	&__menu{ 
+		&:hover{
+		background: $base-color;
+		}
+		background: green;
+	}
+}
